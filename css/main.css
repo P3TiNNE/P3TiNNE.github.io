@@ -22,6 +22,7 @@ a:hover { color: #FF0; }
 
 .peter-text{
     font-family: 'Coiny', cursive;
+    font-weight:200;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;	
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
@@ -42,6 +43,16 @@ a:hover { color: #FF0; }
     100% {
       background-position: 0%;
     }
+  }
+
+  .txt-appear{
+    font-family: 'Coiny', cursive;
+    font-weight: 180;
+    margin: 5px auto;
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
   }
 
 /*----------
@@ -128,7 +139,7 @@ a:hover { color: #FF0; }
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-color: black;
-  boder-right: 0;
+  border-right: 0;
 }
 .fixed-side-navbar .nav > li a:hover > span {
   color: black;
@@ -387,7 +398,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/5th-section.jpg);
+  padding-bottom: 16vh;
 }
 
 .contact-form {
@@ -453,7 +464,7 @@ section {
 footer {
   text-align: center;
   background-color: #282b2f;
-  padding: 70px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 footer .primary-button {
